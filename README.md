@@ -1,2 +1,2 @@
-# lzbferrari.github.io
+# lzb.me
 powered by hexo
