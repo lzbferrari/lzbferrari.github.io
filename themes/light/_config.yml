@@ -1,0 +1,40 @@
+menu:
+  主页: /
+  文章: /archives
+  关于: /about
+##  RSS : /atom.xml
+
+widgets:
+- search
+- category
+#- tag
+- tagcloud
+- recent_posts
+  
+excerpt_link: 阅读全文 
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics: true
+rss: true
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
