@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>about | lzb&#39;s blog</title>
+  <title>为什么volatile不能保证原子性 | lzb&#39;s blog</title>
   <meta name="author" content="lzb">
   
-  <meta name="description" content="lzb">
+  <meta name="description" content="###为什么volatile不能保证原子性">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="about"/>
+  <meta property="og:title" content="为什么volatile不能保证原子性"/>
   <meta property="og:site_name" content="lzb&#39;s blog"/>
 
   
@@ -73,27 +73,40 @@
 <div class="clearfix"></div>
 </header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper"><article class="page">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
       
+        <div class="icon"></div>
+        <time datetime="2017-03-28T12:55:45.000Z"><a href="/java/volatile">2017-03-28</a></time>
+      
       
   
-    <h1 class="title">about</h1>
+    <h1 class="title">为什么volatile不能保证原子性</h1>
   
 
     </header>
     <div class="entry">
       
-        <p>lzb</p>
+        <p>###为什么volatile不能保证原子性</p>
 
       
     </div>
     <footer>
       
         
+  
+  <div class="categories">
+    <a href="/categories/java/">java</a>
+  </div>
+
         
+  
+  <div class="tags">
+    <a href="/tags/concurrency/">concurrency</a>
+  </div>
+
         
   <div class="addthis addthis_toolbox addthis_default_style">
     
@@ -134,7 +147,7 @@
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<div class="fb-comments" data-href="http://lzb.me/about/index.html" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
+<div class="fb-comments" data-href="http://lzb.me/java/volatile" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
       
   
 </section>

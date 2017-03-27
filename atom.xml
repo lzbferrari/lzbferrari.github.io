@@ -17,8 +17,8 @@
   
   <entry>
     <title>为什么volatile不能保证原子性</title>
-    <link href="http://lzb.me/2017/03/28/volatile/"/>
-    <id>http://lzb.me/2017/03/28/volatile/</id>
+    <link href="http://lzb.me/java/volatile"/>
+    <id>http://lzb.me/java/volatile</id>
     <published>2017-03-28T12:55:45.000Z</published>
     <updated>2017-03-27T16:50:51.843Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://lzb.me/2015/05/27/test/"/>
-    <id>http://lzb.me/2015/05/27/test/</id>
+    <link href="http://lzb.me/test/test"/>
+    <id>http://lzb.me/test/test</id>
     <published>2015-05-26T17:55:45.000Z</published>
     <updated>2017-03-19T10:57:14.385Z</updated>
     
