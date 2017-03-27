@@ -85,5 +85,6 @@ plugins:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/lzbferrari/lzbferrari.github.io.git 
+##  repository: https://github.com/lzbferrari/lzbferrari.github.io.git 
+  repository: git@github.com:lzbferrari/lzbferrari.github.io.git
   branch: master    
