@@ -77,9 +77,9 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: light
 plugins:
-  - hexo-generator-feed
-  - hexo-generator-sitemap
-  - hexo-generator-baidu-sitemap
+  hexo-generator-feed
+  hexo-generator-sitemap
+  hexo-generator-baidu-sitemap
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
