@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://lzb.me/2017/03/28/volatile/</loc>
+    <lastmod>2017-03-27T16:50:51.843Z</lastmod>
+    <data>
+        <display>
+        <title>为什么volatile不能保证原子性</title>
+        <pubTime>2017-03-28T12:55:45.000Z</pubTime>
+        
+        <tag>concurrency</tag>
+         
+         
+           
+             
+              <breadCrumb title="java" url="http://lzb.me/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://lzb.me/2015/05/27/test/</loc>
+    <lastmod>2017-03-19T10:57:14.385Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2015-05-26T17:55:45.000Z</pubTime>
+        
+        <tag>aa</tag>
+         
+        <tag>bb</tag>
+         
+         
+           
+             
+              <breadCrumb title="test" url="http://lzb.me/categories/test/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>

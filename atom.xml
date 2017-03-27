@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>lzb&#39;s blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lzb.me/"/>
+  <updated>2017-03-27T16:50:51.843Z</updated>
+  <id>http://lzb.me/</id>
+  
+  <author>
+    <name>lzb</name>
+    <email>lzbferrari@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为什么volatile不能保证原子性</title>
+    <link href="http://lzb.me/2017/03/28/volatile/"/>
+    <id>http://lzb.me/2017/03/28/volatile/</id>
+    <published>2017-03-28T12:55:45.000Z</published>
+    <updated>2017-03-27T16:50:51.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>###为什么volatile不能保证原子性</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###为什么volatile不能保证原子性&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="java" scheme="http://lzb.me/categories/java/"/>
+    
+    
+      <category term="concurrency" scheme="http://lzb.me/tags/concurrency/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://lzb.me/2015/05/27/test/"/>
+    <id>http://lzb.me/2015/05/27/test/</id>
+    <published>2015-05-26T17:55:45.000Z</published>
+    <updated>2017-03-19T10:57:14.385Z</updated>
+    
+    <content type="html"><![CDATA[<p>###hhhhhhhhhhhh<br>ssssss<br>DDDDDDD:W<br>aaaaaa</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###hhhhhhhhhhhh&lt;br&gt;ssssss&lt;br&gt;DDDDDDD:W&lt;br&gt;aaaaaa&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="test" scheme="http://lzb.me/categories/test/"/>
+    
+    
+      <category term="aa" scheme="http://lzb.me/tags/aa/"/>
+    
+      <category term="bb" scheme="http://lzb.me/tags/bb/"/>
+    
+  </entry>
+  
+</feed>
