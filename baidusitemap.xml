@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://lzb.me/java/volatile/</loc>
-    <lastmod>2017-03-27T16:50:51.843Z</lastmod>
+    <lastmod>2017-03-28T04:43:21.336Z</lastmod>
     <data>
         <display>
         <title>为什么volatile不能保证原子性</title>
@@ -23,26 +23,4 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://lzb.me/test/test/</loc>
-    <lastmod>2017-03-19T10:57:14.385Z</lastmod>
-    <data>
-        <display>
-        <title>test</title>
-        <pubTime>2015-05-26T17:55:45.000Z</pubTime>
-        
-        <tag>aa</tag>
-         
-        <tag>bb</tag>
-         
-         
-           
-             
-              <breadCrumb title="test" url="http://lzb.me/categories/test/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>
