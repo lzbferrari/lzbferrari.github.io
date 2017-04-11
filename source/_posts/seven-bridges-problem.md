@@ -48,7 +48,6 @@ import java.util.*;
 /**
  * 遍历无向图的所有最长一笔画
  * 深度优先，达到最深时，后退，继续搜索另一条路径
- * 代码遗留问题1.递归的退出条件2.输出路径中包含中间路径
  * Created by LZB on 2017/4/8.
  */
 public class Graph {
@@ -281,7 +280,7 @@ public class Graph {
 
         //TODO 退出递归的条件
         try {
-            search(start, stack, new Stack<>());
+            search(start, start, stack, new Stack<>());
         }catch (EmptyStackException e){
 
         }
@@ -300,7 +299,7 @@ public class Graph {
      * @param stack 当前路径的节点顺序
      * @param sp 当前路径的路径顺序
      */
-    public void search(int v, Stack<Integer> stack, Stack<Edge> sp) {
+    public void search(int start, int v, Stack<Integer> stack, Stack<Edge> sp) {
 
         LinkedList<Edge> list = edgeList[v];
 
@@ -312,12 +311,13 @@ public class Graph {
                 stack.push(w.getAnotherV(v));
                 updateMax(sp.size());
                 sp.push(w);
-                search(w.getAnotherV(v), stack, sp);
+                search(start, w.getAnotherV(v), stack, sp);
             }
         }
 
         if (!anotherWay) {
-            rollback(stack, sp);
+            System.out.println("最长：===============================");
+            rollback(start, stack, sp);
         }
 
     }
@@ -331,15 +331,13 @@ public class Graph {
      * @param stack 当前路径的节点顺序
      * @param sp 当前路径的路径顺序
      */
-    public void rollback(Stack<Integer> stack, Stack<Edge> sp) {
+    public void rollback(int start, Stack<Integer> stack, Stack<Edge> sp) {
 
         String ss = getPath(sp);
-        System.out.println(maxEdge);
         String output = "顶点：" + stack.toString()
             + NEWLINE + "路径：" + ss
             + NEWLINE;
         System.out.println(output);
-
 
         Edge e = sp.pop();  //需要回滚的路径
         String pp = getPath(sp);    //前提路径
@@ -350,7 +348,6 @@ public class Graph {
         boolean rollbakc2 = true;
 
         LinkedList<Edge> l = edgeList[vy];
-
 
         //判断当前节点是否存在空闲路径，是否要回滚两级
         //空闲路径：没有被正向搜索，也没有被缓存当前前提路径下，从改节点出发的方向
@@ -379,10 +376,10 @@ public class Graph {
                     w.removeTo(vy, w.getAnotherV(vy), pp);
                 }
             }
-            rollback(stack, sp);
+            rollback(start, stack, sp);
         }
 
-        search(r, stack, sp);
+        search(start, r, stack, sp);
 
     }
 
