@@ -8,7 +8,7 @@ categories: algorithm
 　　[柯尼斯堡](https://zh.wikipedia.org/zh-hans/%E6%9F%AF%E5%B0%BC%E6%96%AF%E5%A0%A1)，今日俄罗斯加里宁格勒，哲学家[康德](https://zh.wikipedia.org/zh-hans/%E4%BC%8A%E6%9B%BC%E5%8A%AA%E5%B0%94%C2%B7%E5%BA%B7%E5%BE%B7)的故乡。柯尼斯堡曾经是东普鲁士首府，二战之后割让给了俄国。要是希特勒不作死，这块土地现在应该还是德国的。    
 
 　　这座城市被河流分割成了4块陆地。人们为了连接这些陆地，建了7座桥。
-![](http://lzb-resource.oss-cn-shanghai.aliyuncs.com/blog/%E6%A0%BC%E5%B0%BC%E6%96%AF%E5%A0%A1%E4%B8%83%E6%A1%A5%E9%97%AE%E9%A2%98.svg)
+![](http://static.lzb.me/blog/%E6%A0%BC%E5%B0%BC%E6%96%AF%E5%A0%A1%E4%B8%83%E6%A1%A5%E9%97%AE%E9%A2%98.svg)
 　　现在，需要走遍这7座桥。但是，必须遵守以下条件：
 * 走过的桥不能走第二次
 * 可以多次经过同一块陆地
@@ -18,7 +18,7 @@ categories: algorithm
 　　数学家[莱昂哈德·欧拉](https://zh.wikipedia.org/wiki/%E8%90%8A%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E6%AD%90%E6%8B%89)(Leonhard Euler,1707-1783)已经将这个问题作为一笔画问题解决。这就是[图论](https://zh.wikipedia.org/wiki/%E5%9B%BE%E8%AE%BA)的起源。  
 
 　　首先把七桥简化。用圆圈来表示陆地1、2、3、4，称为“顶点(vertex)”，用顶点之间的连线来表示桥a、b、c、d、e、f、g，为“边(edge)”，这种连接方式就是“<a href="https://zh.wikipedia.org/wiki/%E5%9B%BE_(%E6%95%B0%E5%AD%A6)">图(graph)</a>”。
-<center><img src="http://lzb-resource.oss-cn-shanghai.aliyuncs.com/blog/%E5%93%A5%E5%B0%BC%E6%96%AF%E5%A0%A1%E4%B8%83%E6%A1%A5_%E5%9B%BE.svg" style="text-align:center;width:60%"/></center>
+<center><img src="http://static.lzb.me/blog/%E5%93%A5%E5%B0%BC%E6%96%AF%E5%A0%A1%E4%B8%83%E6%A1%A5_%E5%9B%BE.svg" style="text-align:center;width:60%"/></center>
 　　然后，顶点所关联的边数，也就是每块陆地连接的桥数，称为该顶点的度数。
 * 陆地0的度数3
 * 陆地1的度数5
@@ -36,7 +36,7 @@ categories: algorithm
 
 　　哥尼斯堡问题中蕴含着一种思维方式。在观察各个顶点的度数时，重点并不在度数本身，而是“数的奇偶性(parity)”。途中每通过一次顶点，就要减少2个度数，所以顶点的度数必须是2的倍数。
 
-　　下面是代码部分。  
+　　下面是代码部分。因为计算机没有欧拉那么机智，所以只能一条一条找，穷举所有最长的一笔画路径。  
 　　这个图是多重图，可以用[邻接表](https://zh.wikipedia.org/zh-hans/%E9%82%BB%E6%8E%A5%E8%A1%A8)这种数据结构来表达。需要知道顶点的个数，和边的个数，以及每条边连接的是哪两个顶点。  
 　　七桥问题中，因为 有4个顶点，7条边。七条边从a-g分别为，0-1,0-1,0-3,1-3,1-2,1-2,2-3.  
 　　遍历出所有的不重复的最长路径，[深度优先搜索](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)。
