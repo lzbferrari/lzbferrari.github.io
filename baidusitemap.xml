@@ -4,8 +4,30 @@
 
     
   <url>
-    <loc>http://lzb.me/algorithm/seven-bridges-problem/</loc>
-    <lastmod>2017-04-24T09:33:02.575Z</lastmod>
+    <loc>http://lzb.me/2017/11/Virtual-Memory/</loc>
+    <lastmod>2017-11-30T16:38:51.705Z</lastmod>
+    <data>
+        <display>
+        <title>虚拟内存</title>
+        <pubTime>2017-11-26T13:09:12.000Z</pubTime>
+        
+        <tag>Operating System</tag>
+         
+        <tag>Virtual Memory</tag>
+         
+         
+           
+             
+              <breadCrumb title="Operating System" url="http://lzb.me/categories/Operating-System/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://lzb.me/2017/04/seven-bridges-problem/</loc>
+    <lastmod>2017-11-30T16:31:09.706Z</lastmod>
     <data>
         <display>
         <title>哥尼斯堡七桥问题</title>

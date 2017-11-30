@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lzb.me/algorithm/seven-bridges-problem/</loc>
+    <loc>http://lzb.me/2017/11/Virtual-Memory/</loc>
     
-    <lastmod>2017-04-24T09:33:02.575Z</lastmod>
+    <lastmod>2017-11-30T16:38:51.705Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://lzb.me/2017/04/seven-bridges-problem/</loc>
+    
+    <lastmod>2017-11-30T16:31:09.706Z</lastmod>
     
   </url>
   
