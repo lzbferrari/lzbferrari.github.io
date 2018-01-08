@@ -13,7 +13,7 @@ date: 2017-11-26 21:09:12
 
 　　下图是单个Linux进程看到的虚拟地址空间。  
 
-<center><img src="http://static.lzb.me/blog/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%99%9A%E6%8B%9F%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4.png" style="text-align:center;width:80%"/></center>  
+<center><img src="http://static.lzb.me/blog/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%99%9A%E6%8B%9F%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4.svg" style="text-align:center;width:80%"/></center>  
 
 　　事实上，这个时候，是有很多个进程同时运行在操作系统上。主存可能是这样子的：  
 
@@ -32,7 +32,7 @@ date: 2017-11-26 21:09:12
 
 　　这样做的理论依据是局部性原理，即程序具有访问局部区域里的数据和代码的趋势。通俗来说就是，执行了一条指令，马上又会执行这条指令，访问了某个地址上的数据，很快又会访问这个数据和附近的数据。
 
-<center><img src="http://static.lzb.me/blog/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/%E9%A1%B5%E8%A1%A8.png" style="text-align:center;width:80%"/></center>  
+<center><img src="http://static.lzb.me/blog/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/%E9%A1%B5%E8%A1%A8.svg" style="text-align:center;width:80%"/></center>  
 
 　　当程序装载的时候，会给进程分配一个页表（每页4K）讲逻辑地址和物理地址映射起来。每页会有一个有效位，如果设置了有效位，那么地址字段就表示DRAM中有相应的物理页起始位置，如果没有设置，但是有值，说明这个地址指向磁盘上的起始位置，如果，没有设置，也没有值，表示这个虚拟页面还未被分配。
 
