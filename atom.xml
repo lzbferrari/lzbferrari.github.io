@@ -4,21 +4,21 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://lzb.me/"/>
+  <link href="http://blog.dajitui.fun/"/>
   <updated>2019-04-23T13:52:28.278Z</updated>
-  <id>http://lzb.me/</id>
+  <id>http://blog.dajitui.fun/</id>
   
   <author>
     <name>lzb</name>
-    <email>lzbferrari@gmail.com</email>
+    <email>lzbferrari@live.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>虚拟内存</title>
-    <link href="http://lzb.me/2017/11/Virtual-Memory/"/>
-    <id>http://lzb.me/2017/11/Virtual-Memory/</id>
+    <link href="http://blog.dajitui.fun/2017/11/Virtual-Memory/"/>
+    <id>http://blog.dajitui.fun/2017/11/Virtual-Memory/</id>
     <published>2017-11-26T13:09:12.000Z</published>
     <updated>2019-04-23T13:52:28.278Z</updated>
     
@@ -84,19 +84,19 @@
     
     </summary>
     
-      <category term="Operating System" scheme="http://lzb.me/categories/Operating-System/"/>
+      <category term="Operating System" scheme="http://blog.dajitui.fun/categories/Operating-System/"/>
     
     
-      <category term="Operating System" scheme="http://lzb.me/tags/Operating-System/"/>
+      <category term="Operating System" scheme="http://blog.dajitui.fun/tags/Operating-System/"/>
     
-      <category term="Virtual Memory" scheme="http://lzb.me/tags/Virtual-Memory/"/>
+      <category term="Virtual Memory" scheme="http://blog.dajitui.fun/tags/Virtual-Memory/"/>
     
   </entry>
   
   <entry>
     <title>哥尼斯堡七桥问题</title>
-    <link href="http://lzb.me/2017/04/seven-bridges-problem/"/>
-    <id>http://lzb.me/2017/04/seven-bridges-problem/</id>
+    <link href="http://blog.dajitui.fun/2017/04/seven-bridges-problem/"/>
+    <id>http://blog.dajitui.fun/2017/04/seven-bridges-problem/</id>
     <published>2017-04-05T18:57:12.000Z</published>
     <updated>2019-04-23T13:51:39.606Z</updated>
     
@@ -129,12 +129,12 @@
     
     </summary>
     
-      <category term="algorithm" scheme="http://lzb.me/categories/algorithm/"/>
+      <category term="algorithm" scheme="http://blog.dajitui.fun/categories/algorithm/"/>
     
     
-      <category term="algorithm" scheme="http://lzb.me/tags/algorithm/"/>
+      <category term="algorithm" scheme="http://blog.dajitui.fun/tags/algorithm/"/>
     
-      <category term="欧拉" scheme="http://lzb.me/tags/%E6%AC%A7%E6%8B%89/"/>
+      <category term="欧拉" scheme="http://blog.dajitui.fun/tags/%E6%AC%A7%E6%8B%89/"/>
     
   </entry>
   
