@@ -1,4 +1,4 @@
-# Hexo Configuration
+  # Hexo Configuration
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -88,5 +88,8 @@ plugins:
 deploy:
   type: git
 ##  repository: https://github.com/lzbferrari/lzbferrari.github.io.git 
-  repository: git@github.com:lzbferrari/lzbferrari.github.io.git
-  branch: master    
+##  repository: git@github.com:lzbferrari/lzbferrari.github.io.git
+##  branch: master    
+  repo:
+    github: git@github.com:lzbferrari/lzbferrari.github.io.git,master
+    coding: git@git.coding.net:lzbferrari/lzbferrari.coding.me.git,master
