@@ -7,13 +7,13 @@ title: lzb's blog
 subtitle:
 description:
 author: lzb
-email: lzbferrari@gmail.com 
+email: lzbferrari@live.com 
 language: zh-CN 
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lzb.me
+url: http://blog.dajitui.fun
 root: /
 permalink: :year/:month/:title/
 ## permalink: :category/:title/
