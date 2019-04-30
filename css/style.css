@@ -291,6 +291,25 @@ article .entry h6,
 article .entry .video-container {
   margin-top: 15px;
 }
+article .entry table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #e2e2e2;
+  width: 100%;
+}
+article .entry table th {
+  white-space: nowrap;
+  color: #444;
+  font-weight: 600;
+  background: #eee;
+}
+article .entry table td,
+article .entry table th {
+  border: 1px solid #e2e2e2;
+  padding: 8px 16px;
+  text-align: left;
+}
 article .entry blockquote {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -723,6 +742,9 @@ figure.highlight .code {
 }
 figure.highlight .line {
   height: 20px;
+}
+figure.highlight .line.marked {
+  background: #d6d6d6;
 }
 pre .comment,
 pre .template_comment,
