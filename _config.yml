@@ -77,7 +77,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: light
+theme: maupassant
 plugins:
   hexo-generator-feed
   hexo-generator-sitemap
