@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>lzb&#39;s blog</title>
-  
+  <title>Dajitui&#39;s blog</title>
+  <subtitle>Your magic is mine!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dajitui.fun/"/>
@@ -9,7 +9,7 @@
   <id>http://blog.dajitui.fun/</id>
   
   <author>
-    <name>lzb</name>
+    <name>Dajitui</name>
     <email>lzbferrari@live.com</email>
   </author>
   
