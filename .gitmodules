@@ -3,4 +3,7 @@
 	url = git@github.com:lzbferrari/hexo-theme-light.git
 [submodule "themes/maupassant"]
 	path = themes/maupassant
-	url = https://github.com/lzbferrari/maupassant-hexo.git
+	url = git@github.com:lzbferrari/maupassant-hexo.git
+[submodule "themes/archer"]
+	path = themes/archer
+	url = git@github.com:lzbferrari/hexo-theme-archer.git

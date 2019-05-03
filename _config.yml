@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lzb's blog
-subtitle:
+title: Dajitui's blog
+subtitle: Your magic is mine!
 description:
-author: lzb
+author: Dajitui
 email: lzbferrari@live.com 
 language: zh-CN 
 timezone: Asia/Shanghai
@@ -77,11 +77,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
+# theme: light
+# theme: archer
 theme: maupassant
+
 plugins:
   hexo-generator-feed
   hexo-generator-sitemap
   hexo-generator-baidu-sitemap
+  # hexo-generator-json-content
+  # hexo-wordcount
+  # hexo-renderer-pug
+  # hexo-renderer-sass
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
